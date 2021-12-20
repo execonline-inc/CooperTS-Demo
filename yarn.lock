@@ -807,9 +807,23 @@
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.16.5"
 
+"@babel/plugin-transform-react-jsx-self@^7.16.5":
+  version "7.16.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.16.5.tgz#e16bf9cd52f2e8ea11f9d7edfb48458586c760bf"
+  integrity sha512-fvwq+jir1Vn4f5oBS0H/J/gD5CneTD53MHs+NMjlHcha4Sq35fwxI5RtmJGEBXO+M93f/eeD9cAhRPhmLyJiVw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.16.5"
+
+"@babel/plugin-transform-react-jsx-source@^7.16.5":
+  version "7.16.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.16.5.tgz#7c2aeb6539780f3312266de3348bbb74ce9d3ce1"
+  integrity sha512-/eP+nZywJntGLjSPjksAnM9/ELIs3RbiEuTu2/zAOzwwBcfiu+m/iptEq1lERUUtSXubYSHVnVHMr13GR+TwPw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.16.5"
+
 "@babel/plugin-transform-react-jsx@^7.16.5":
   version "7.16.5"
-  resolved "https://registry.npmjs.org/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.16.5.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.16.5.tgz#5298aedc5f81e02b1cb702e597e8d6a346675765"
   integrity sha512-+arLIz1d7kmwX0fKxTxbnoeG85ONSnLpvdODa4P3pc1sS7CV1hfmtYWufkW/oYsPnkDrEeQFxhUWcFnrXW7jQQ==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.16.0"
@@ -2202,6 +2216,14 @@ aggregate-error@^3.0.0:
   dependencies:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
+
+ajaxian@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/ajaxian/-/ajaxian-4.2.0.tgz#318629cb0754df8790ce157b7f958181673e7a85"
+  integrity sha512-E49CcDMjmGTB8zreB0/Tr9JbaH1no0jcsqfQ2+uSdwAdP7U2jjxxiSMBI1f2jOQi8G8djrIlrsAs4Joc40WUjg==
+  dependencies:
+    resulty "^5.0.0"
+    taskarian "^4.2.0"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -9393,6 +9415,11 @@ resolve@^2.0.0-next.3:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
+resulty@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/resulty/-/resulty-5.0.0.tgz#962fec061caaade8d600d39d88db370c4f4a9a9a"
+  integrity sha512-K4E8JWqVqjCimjfdM/QyQWLs8xwdhJGVsVy2T6hvU9ihTEaEL72/eI/8wtVP7ddM+DKD2dNnNxLwthoX0RZrow==
+
 ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.npmjs.org/ret/-/ret-0.1.15.tgz"
@@ -10337,6 +10364,13 @@ tar@^6.0.2:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
+
+taskarian@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/taskarian/-/taskarian-4.2.0.tgz#ecb3fd874e7ebb9bd073814d6680e88fb31e38e0"
+  integrity sha512-unOpUkjHC2iHG9ZDsxYkwDqKORDFAPHWWlGzASiDB7rXEzNdHDx+EU1PqMscjBkXjdFnYCVrD4m9/hDOBjFrEg==
+  dependencies:
+    resulty "^5.0.0"
 
 temp-dir@^1.0.0:
   version "1.0.0"
