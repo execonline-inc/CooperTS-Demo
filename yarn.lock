@@ -1193,6 +1193,14 @@
     resulty "^4.0.0"
     taskarian "^4.0.0"
 
+"@execonline-inc/logging@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/logging/-/logging-5.3.0.tgz#b27c33aaacb8d17a34f0de6505143c394811c43a"
+  integrity sha512-NyYLTzPKoFy4wuWaExbxt52AFvv57QnY0+CdSdadWLQL06hw8Ohv/i68kBHvQ4/v3nWpPG6vVvPzanR13to3wA==
+  dependencies:
+    "@execonline-inc/environment" "^5.2.0"
+    logging "^3.2.0"
+
 "@execonline-inc/maybe-adapter@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@execonline-inc/maybe-adapter/-/maybe-adapter-4.2.0.tgz#0bff6a8cfb4a6db673f3aef13d1efc82f57f8f6e"
