@@ -7512,6 +7512,14 @@ node-releases@^2.0.1:
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.1.tgz"
   integrity sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==
 
+nonempty-list@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/nonempty-list/-/nonempty-list-3.1.0.tgz#c0a5216bb065479199912cfdbc92343314bdbc3f"
+  integrity sha512-NLTdb8jIhZPW4i8L68m+8BvLtMsjKWPynFcfjgzBh1ZqUdOM6/W5wM8zqQzaY5FfbfFR5l3FXioFrikQuu8u/w==
+  dependencies:
+    maybeasy "^3.0.0"
+    resulty "^5.0.0"
+
 normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"

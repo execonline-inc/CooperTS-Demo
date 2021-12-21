@@ -15,6 +15,7 @@
     "ajaxios": "^2.3.0",
     "jsonous": "^7.1.0",
     "maybeasy": "^3.0.0",
+    "nonempty-list": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
