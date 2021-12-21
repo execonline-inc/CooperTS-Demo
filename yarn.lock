@@ -1265,6 +1265,18 @@
     resulty "^4.0.0"
     taskarian "^4.0.0"
 
+"@execonline-inc/url@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/url/-/url-5.3.0.tgz#80bc77e9f3279b134ebfcf067d480e85bcf69329"
+  integrity sha512-r3A96QST0DHjQm1CNnAyVq8MTFatZdP5/EUJ50lvK//RSUiSbQ8CvKZmmu1knzhmi+kee6Gowhn/XeIfaovamA==
+  dependencies:
+    "@kofno/piper" "^3.0.0"
+    "@types/url-parse" "^1.4.3"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+    url-parse "^1.4.7"
+
 "@gar/promisify@^1.0.1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
@@ -2006,6 +2018,11 @@
   integrity sha512-O3MmRAk6ZuAKa9CHgg0Pr0+lUOqoMLpc9AS4R8ano2auvsg7IE8syF3Xh/NPr26TWklxYcqoEEFdzLLs1fV9PQ==
   dependencies:
     source-map "^0.6.1"
+
+"@types/url-parse@^1.4.3":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@types/url-parse/-/url-parse-1.4.5.tgz#bda0b813cc8f79d767dc8ca645fdabc238c6ae77"
+  integrity sha512-8Wje3itJpk/FX+QItca9vjNLjGx5jlEYBw/CpMi03Fphk2DSVeZDUqWTE81BeCI5Bl6Z+zmA1O9L/8e3ZUSeLg==
 
 "@types/webpack-sources@*":
   version "3.2.0"
@@ -11089,7 +11106,7 @@ url-loader@4.1.1:
     mime-types "^2.1.27"
     schema-utils "^3.0.0"
 
-url-parse@^1.4.3, url-parse@^1.5.3:
+url-parse@^1.4.3, url-parse@^1.4.7, url-parse@^1.5.3:
   version "1.5.3"
   resolved "https://registry.npmjs.org/url-parse/-/url-parse-1.5.3.tgz"
   integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
