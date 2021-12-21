@@ -6,6 +6,7 @@
     "@babel/plugin-transform-react-jsx": "^7.16.5",
     "@babel/plugin-transform-react-jsx-self": "^7.16.5",
     "@babel/plugin-transform-react-jsx-source": "^7.16.5",
+    "@execonline-inc/appy": "^8.4.0",
     "@kofno/cute": "^2.2.0",
     "@kofno/gaia": "^2.3.0",
     "@kofno/piper": "^4.1.0",

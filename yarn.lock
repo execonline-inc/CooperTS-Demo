@@ -1131,6 +1131,94 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@execonline-inc/appy@^8.4.0":
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/appy/-/appy-8.4.0.tgz#ff13a1b11b0512b71d8f15d1c32ddcbb889be3cc"
+  integrity sha512-/9poFhWRbLggmfWh+HOCGAgODpwsZyTgQuY+5TRQ44ELVlrzTtlOBXcJzwrh9UB/Ptxs+CyJyXePoETXj/NUHw==
+  dependencies:
+    "@execonline-inc/environment" "^5.2.0"
+    "@execonline-inc/resource" "^6.4.0"
+    "@kofno/piper" "^3.0.0"
+    ajaxian "^4.0.0"
+    jsonous "^7.0.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+
+"@execonline-inc/collections@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/collections/-/collections-6.4.0.tgz#191970226eb95a1f8a41632ce4e6249e03c3c99d"
+  integrity sha512-6OraNzNXOm91apDZH7EAuCQTHY3lqwT0L+uxSl3qiu65KXlvx6xUJWERq8Qi8Jqoe/LDHG0YGm96sj+Z9pFa8g==
+  dependencies:
+    "@execonline-inc/maybe-adapter" "^4.2.0"
+    "@kofno/piper" "^3.0.0"
+    ajaxian "^4.0.0"
+    jsonous "^7.0.0"
+    logging "^3.3.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+
+"@execonline-inc/decoders@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/decoders/-/decoders-5.2.0.tgz#d7356ddcc7e0c04441f915b5283f81b427c0d47e"
+  integrity sha512-oDMhfWPFef5AGr+lA4EQWyzbL9xpS75M7GJGB3r6ZGg068Lhj3OhvzaZqJsdUI4C8CZHQRHNJ8iaMaVik4dwGw==
+  dependencies:
+    "@execonline-inc/time" "^4.0.0"
+    "@types/atob" "^2.1.2"
+    atob "^2.1.2"
+    jsonous "^7.0.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+
+"@execonline-inc/environment@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/environment/-/environment-5.2.0.tgz#64673842198a9f97da6c2e2e54481f9de5e465d8"
+  integrity sha512-LrTu703ZqER+ccm/1Ck2bklsNkSO7XTjB1kQRbdhxw/HCCoJKwWZ/h1vilzNp6NMFw8ExhM10Lw2dU4mMyf9Qg==
+  dependencies:
+    "@kofno/piper" "^3.0.0"
+    ajaxian "^4.0.0"
+    honeybadger-js "^2.0.0"
+    jsonous "^7.0.0"
+    logging "^3.2.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+
+"@execonline-inc/maybe-adapter@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/maybe-adapter/-/maybe-adapter-4.2.0.tgz#0bff6a8cfb4a6db673f3aef13d1efc82f57f8f6e"
+  integrity sha512-6fve6R8g5RiNlHH//yYFxjcpZXn1JVa53g4Dfe2WFqLuxUJy1bKcDmgx3ppUZqhMvCjnsH4xb1IZNt6OA9GN/Q==
+  dependencies:
+    "@kofno/piper" "^3.0.0"
+    ajaxian "^4.0.0"
+    jsonous "^7.0.0"
+    logging "^3.2.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+
+"@execonline-inc/resource@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/resource/-/resource-6.4.0.tgz#90c2bd4d7e355166ea0ec0fa1e7298e275e24da2"
+  integrity sha512-EUMU8zt489Tlu3mZeVEkZsRDyerGWHQoRccYUjjmAupNBYJLyIiFomDetOkNZkg0HZXiUtxZ4umhCLwvH619wA==
+  dependencies:
+    "@execonline-inc/collections" "^6.4.0"
+    "@execonline-inc/decoders" "^5.2.0"
+    "@execonline-inc/environment" "^5.2.0"
+    "@execonline-inc/maybe-adapter" "^4.2.0"
+    "@kofno/piper" "^3.0.0"
+    ajaxian "^4.0.0"
+    jsonous "^7.0.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+
+"@execonline-inc/time@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/time/-/time-4.0.0.tgz#20fea75ba29ae250d0acc44be1216ff5638b16d7"
+  integrity sha512-PN7P2MsbaHygopQ1F8SPYEL+m0QwddjMTukHJtCclBJuzqIQ6OLUnWYNY1/Jw+4y0M82E/4JBTNiB7S8AotrCw==
+
 "@gar/promisify@^1.0.1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
@@ -1389,6 +1477,11 @@
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@kofno/gaia/-/gaia-2.3.0.tgz#9cb9725d065b290217cec312780ce4393b201ba2"
   integrity sha512-NXQRKdPMvaXw7EufYukjDnBRAEsUQZ+gYPP+ccJQd+5sMB5X+wDzVy4cyMwM07W5XHjQahjlYZGTYjDC09YtBA==
+
+"@kofno/piper@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@kofno/piper/-/piper-3.0.0.tgz#0897d8ddf701f171dddb1765e020f2dbb90ba2f1"
+  integrity sha512-fIqI7m9E6QWimpcNhayQdKg8eNi4c3+pVtDdu6jEJeipJKS95d17bpz7mJHAKnNY7YP6Z+ra2Ol54fqKAY7AAw==
 
 "@kofno/piper@^4.1.0":
   version "4.1.0"
@@ -1655,6 +1748,11 @@
   version "4.2.2"
   resolved "https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.2.tgz"
   integrity sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==
+
+"@types/atob@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@types/atob/-/atob-2.1.2.tgz#157eb0cc46264a8c55f2273a836c7a1a644fb820"
+  integrity sha512-8GAYQ1jDRUQkSpHzJUqXwAkYFOxuWAOGLhIR4aPd/Y/yL12Q/9m7LsKpHKlfKdNE/362Hc9wPI1Yh6opDfxVJg==
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.17"
@@ -2237,7 +2335,7 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-ajaxian@^4.2.0:
+ajaxian@^4.0.0, ajaxian@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/ajaxian/-/ajaxian-4.2.0.tgz#318629cb0754df8790ce157b7f958181673e7a85"
   integrity sha512-E49CcDMjmGTB8zreB0/Tr9JbaH1no0jcsqfQ2+uSdwAdP7U2jjxxiSMBI1f2jOQi8G8djrIlrsAs4Joc40WUjg==
@@ -2321,6 +2419,11 @@ ansi-regex@^5.0.0, ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
   integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
+
+ansi-styles@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
+  integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
 
 ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
@@ -5476,6 +5579,11 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+honeybadger-js@^2.0.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/honeybadger-js/-/honeybadger-js-2.3.0.tgz#040200066d60a8c1eca036e9f8568f9cff8b8d55"
+  integrity sha512-Tq1jPNumPe/l5RRDPDi+KNGULoaJQ9BSVZC+TEZOlPUzJx3AUn5ESb2NkCd7oSx/J221/aWUfz2/JrltHldx7A==
+
 hoopy@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
@@ -6817,7 +6925,7 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonous@^7.1.0:
+jsonous@^7.0.0, jsonous@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/jsonous/-/jsonous-7.1.0.tgz#2bae7e9cacd9f89e35e3e80bd573c57a5b1a6803"
   integrity sha512-Wu82ADyHAVpyDzPDHa/ihrNE1M+e36iPaQm195QPiAjxrjNOpQ5FHaqSC9gXiZeUiAHFp69sfV0BpSmzWPGyfA==
@@ -7033,6 +7141,15 @@ lodash.uniq@^4.5.0:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+logging@^3.2.0, logging@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/logging/-/logging-3.3.0.tgz#5743f9154f790308c5d6f2e28196dd0259fcf0ad"
+  integrity sha512-Hnmu3KlGTbXMVS7ONjBpnjjiF9cBlK5qsmj77sOcqRkNpvO9ouUGPKe2PmBCWWYpKAbxb96b08cYEv4hiBk3lQ==
+  dependencies:
+    chalk "^4.1.0"
+    debug "^4.3.1"
+    nicely-format "^1.1.0"
 
 loglevel@^1.6.8:
   version "1.8.0"
@@ -7452,6 +7569,14 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+nicely-format@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nicely-format/-/nicely-format-1.1.0.tgz#6c3513d1f38077d65ed9721e716a8e1917ba27b6"
+  integrity sha1-bDUT0fOAd9Ze2XIecWqOGRe6J7Y=
+  dependencies:
+    ansi-styles "^2.2.1"
+    esutils "^2.0.2"
 
 no-case@^3.0.4:
   version "3.0.4"
@@ -9468,6 +9593,11 @@ resolve@^2.0.0-next.3:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
+resulty@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/resulty/-/resulty-4.0.0.tgz#fbd6470fde712a88b7c983394c7486da290ea6e2"
+  integrity sha512-toajg6lqdp9tmV0ohsTxWiwoaWJd2WiuH7vOx+BJtj1Bs9+XoGa+0Zu8yRNV02gS5DphnrdnRG4Xjr7vl+eP8g==
+
 resulty@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/resulty/-/resulty-5.0.0.tgz#962fec061caaade8d600d39d88db370c4f4a9a9a"
@@ -10418,7 +10548,7 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-taskarian@^4.2.0:
+taskarian@^4.0.0, taskarian@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/taskarian/-/taskarian-4.2.0.tgz#ecb3fd874e7ebb9bd073814d6680e88fb31e38e0"
   integrity sha512-unOpUkjHC2iHG9ZDsxYkwDqKORDFAPHWWlGzASiDB7rXEzNdHDx+EU1PqMscjBkXjdFnYCVrD4m9/hDOBjFrEg==
