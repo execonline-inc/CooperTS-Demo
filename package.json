@@ -10,6 +10,7 @@
     "@execonline-inc/collections": "^6.4.0",
     "@execonline-inc/decoders": "^5.2.0",
     "@execonline-inc/dom": "^3.1.0",
+    "@execonline-inc/environment": "^5.2.0",
     "@kofno/cute": "^2.2.0",
     "@kofno/gaia": "^2.3.0",
     "@kofno/piper": "^4.1.0",
