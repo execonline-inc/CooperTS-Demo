@@ -8,6 +8,7 @@
     "@babel/plugin-transform-react-jsx-source": "^7.16.5",
     "@kofno/cute": "^2.2.0",
     "@kofno/gaia": "^2.3.0",
+    "@kofno/piper": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
