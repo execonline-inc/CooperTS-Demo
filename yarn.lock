@@ -2225,6 +2225,11 @@ ajaxian@^4.2.0:
     resulty "^5.0.0"
     taskarian "^4.2.0"
 
+ajaxios@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/ajaxios/-/ajaxios-2.3.0.tgz#e382cc0a926cd6a86434453a474f29752e40c87a"
+  integrity sha512-03p09Jevu8GMQthLc8IsNS6jVn1LsSpE4eAaVVTto3i1Omvwqckx3n2yOS1Oen3TTV2RdbbEHtMyDKhzAewA2Q==
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/ajv-errors/-/ajv-errors-1.0.1.tgz"
