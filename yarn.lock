@@ -1171,6 +1171,14 @@
     maybeasy "^3.0.0"
     resulty "^4.0.0"
 
+"@execonline-inc/dom@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/dom/-/dom-3.1.0.tgz#739b80308db7456b147852f320177ca804865b65"
+  integrity sha512-s0sXWCp8Ml7n8Uma8w3212gLBnk9puvUq/pUTzD1Em1vWAp9Z5P8XsMayik8NkKEzXFPS3fkikjdsWQBBGY6og==
+  dependencies:
+    "@kofno/piper" "^3.0.0"
+    taskarian "^4.0.0"
+
 "@execonline-inc/environment@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@execonline-inc/environment/-/environment-5.2.0.tgz#64673842198a9f97da6c2e2e54481f9de5e465d8"
