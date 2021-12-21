@@ -1214,6 +1214,17 @@
     resulty "^4.0.0"
     taskarian "^4.0.0"
 
+"@execonline-inc/numbers@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@execonline-inc/numbers/-/numbers-4.3.0.tgz#18cb4b8176c57fbf72efc923c2e1915208ee2d33"
+  integrity sha512-jd6h14uMk4uHsijC1hwnWDUQHlb95M/jXSANmg/BMskzutsOBlf5iflAsRXFGkegacRahrpS203+2NBoY9Mxeg==
+  dependencies:
+    "@execonline-inc/maybe-adapter" "^4.2.0"
+    "@kofno/piper" "^3.0.0"
+    maybeasy "^3.0.0"
+    resulty "^4.0.0"
+    taskarian "^4.0.0"
+
 "@execonline-inc/resource@^6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@execonline-inc/resource/-/resource-6.4.0.tgz#90c2bd4d7e355166ea0ec0fa1e7298e275e24da2"
