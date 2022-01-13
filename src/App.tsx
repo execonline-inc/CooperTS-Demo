@@ -22,17 +22,11 @@ import resource from "../node_modules/@execonline-inc/resource";
 import time from "../node_modules/@execonline-inc/time";
 import translations from "../node_modules/@execonline-inc/translations";
 import url from "../node_modules/@execonline-inc/url";
+import HelloWorld from "./HelloWorld";
 
 class App extends React.Component {
   render() {
-    const helloWorld: string[] = ["Hello World"];
-    return (
-      <div>
-        {helloWorld.map((hw) => (
-          <h1>{hw}</h1>
-        ))}
-      </div>
-    );
+    return <HelloWorld />;
   }
 }
 
