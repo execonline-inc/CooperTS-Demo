@@ -1,6 +1,7 @@
 import { just, Maybe, nothing } from "maybeasy";
 import { error, loading, ready, State, waiting } from "./Types";
 import { action, computed, observable } from "mobx";
+// import { AjaxResponse, BadStatus } from "ajaxian";
 
 class ShowHelloWorldStore {
   @observable
@@ -20,6 +21,11 @@ class ShowHelloWorldStore {
   error = (message: string) => {
     this.state = error(message);
   };
+
+  // @action
+  // badStatusError = (error: AjaxResponse) => {
+  //   this.state = badStatusError(error);
+  // };
 
   @computed
   get errorMessage(): Maybe<string> {

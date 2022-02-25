@@ -1,11 +1,19 @@
 import * as React from "react";
-import ShowHelloWorld from "../HelloWorld/Show/index";
+import { L, T } from "../Translations";
 
 class HelloWorld extends React.Component {
   render() {
     return (
       <>
-        <ShowHelloWorld message="Hello World" />
+        <T kind="Hello World" />
+        <T
+          kind="It's <date/>"
+          date={
+            <span>
+              <L localizeable={new Date()} format="short-month-day-year" />
+            </span>
+          }
+        />
       </>
     );
   }
