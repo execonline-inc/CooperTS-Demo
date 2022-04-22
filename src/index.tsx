@@ -9,7 +9,7 @@ ReactDOM.render(
 
   <React.StrictMode>
     <TranslationsLoader
-      loader={loader("ja")}
+      loader={loader("en")}
       loading={<p>Loading, please wait...</p>}
     >
       <App />
