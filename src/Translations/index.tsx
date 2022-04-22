@@ -101,6 +101,7 @@ export type TProps = Props<
 >;
 
 export const whenTPlainTextKey = (candidate: string): Maybe<TPlainTextKey> => {
+  //The primary benefit of this equalTo method is that it can be used for currying.
   const whenStringIncludedIn = find<TPlainTextKey>(equalTo(candidate));
 
   return whenStringIncludedIn(notTranslatable).orElse(() =>

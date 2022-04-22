@@ -40,7 +40,7 @@
     "react-scripts": "4.0.3",
     "resulty": "^5.0.0",
     "taskarian": "^4.2.0",
-    "typescript": "^4.5.4",
+    "typescript": "^4.6.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

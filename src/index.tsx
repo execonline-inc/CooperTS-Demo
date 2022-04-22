@@ -5,6 +5,8 @@ import App from "./App";
 import { loader, TranslationsLoader } from "./Translations";
 
 ReactDOM.render(
+  //TranslationsLoader makes translations available for use within App and all its children via Context.
+
   <React.StrictMode>
     <TranslationsLoader
       loader={loader("ja")}
