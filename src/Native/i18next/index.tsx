@@ -2,8 +2,7 @@ import { noop } from "@kofno/piper";
 import { LanguageDetectorAsyncModule } from "@prebsch-exo/i18next";
 import { SupportedLanguageCode } from "../../Translations/Types";
 
-// Missing ability to detect user's language and handle language detection errors
-// See /Users/jkernan/Projects/exec_online/platform3/src/Native/I18nextNativeAsyncStorage/index.ts in p3
+// Currently this app is missing the ability to detect user's language and handle language detection errors, but this is where that functionality could be added.
 
 export const assertNever = (x: never) => {
   throw new Error(`Unexpected object: ${x}`);
