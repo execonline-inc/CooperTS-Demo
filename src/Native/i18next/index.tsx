@@ -15,12 +15,6 @@ const detect =
   (fallback: SupportedLanguageCode) =>
   (callback: Callback): void => {
     callback(fallback);
-    // Task.succeed<LanguageDetectionError, string>(storageKey)
-    //   .andThen(getItem)
-    //   .andThen(toTask(emptyLanguageError))
-    //   .andThen(decodeSupportedLanguage)
-    //   .elseDo(handleLanguageDetectionError)
-    //   .fork(() => callback(fallback), callback);
   };
 
 const cacheUserLanguage = (language: string): void => {

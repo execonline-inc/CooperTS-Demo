@@ -4,6 +4,8 @@ import { L, T } from "../Translations";
 class HelloWorld extends React.Component {
   render() {
     return (
+      //The T (Translation) component takes in a 'kind' prop as a string, and makes the string translatable when paired with a valid translation file.
+      //See cooperts-app/public/locales for examples
       <>
         {/* T component is being rendered here with the kind prop which points to the message to be translated in the translations.json file */}
         <T kind="Hello World" />

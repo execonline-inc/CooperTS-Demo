@@ -68,6 +68,7 @@ export const loader = (
       initTask(initializer, i18nSettings)
     );
 
+// Any string that does not require interpolation needs to be included in this translatablePlainTextKeys array in order to be translated.
 const translatablePlainTextKeys = ["Hello World"] as const;
 
 const notTranslatable = [] as const;
@@ -78,6 +79,8 @@ const notTranslatable = [] as const;
  * Use `<abc>...</abc>` to wrap translated content in an element (Interpolator).
  * Use `<xyz/>` to replace with elements that don't need translation content in them (React.ReactElement).
  */
+
+// Any string that requires interpolation needs to be added to this object as shown below.
 type TParameterizedProps = { kind: "It's <date/>"; date: React.ReactElement };
 
 export const parameterizedValues = (
