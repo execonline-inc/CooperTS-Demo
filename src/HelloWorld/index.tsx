@@ -1,12 +1,13 @@
 import * as React from "react";
 import { L, T } from "../Translations";
+import "./HelloWorld.css";
 
 class HelloWorld extends React.Component {
   render() {
     return (
       //The T (Translation) component takes in a 'kind' prop as a string, and makes the string translatable when paired with a valid translation file.
       //See cooperts-app/public/locales for examples
-      <>
+      <div className="hello-world">
         <T kind="Hello World" />
         <br />
 
@@ -20,7 +21,7 @@ class HelloWorld extends React.Component {
             </span>
           }
         />
-      </>
+      </div>
     );
   }
 }
