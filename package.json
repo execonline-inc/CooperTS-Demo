@@ -7,7 +7,7 @@
     "@babel/plugin-transform-react-jsx-self": "^7.16.5",
     "@babel/plugin-transform-react-jsx-source": "^7.16.5",
     "@execonline-inc/appy": "^8.4.0",
-    "@execonline-inc/collections": "^6.4.0",
+    "@execonline-inc/collections": "^10.1.0",
     "@execonline-inc/decoders": "^5.2.0",
     "@execonline-inc/dom": "^3.1.0",
     "@execonline-inc/environment": "^5.2.0",
@@ -39,7 +39,7 @@
     "react-native-web": "^0.17.6",
     "react-scripts": "4.0.3",
     "resulty": "^5.0.0",
-    "taskarian": "^4.2.0",
+    "taskarian": "^5.1.0",
     "typescript": "^4.6.3",
     "web-vitals": "^1.1.2"
   },
