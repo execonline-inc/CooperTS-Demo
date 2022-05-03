@@ -8,6 +8,7 @@ ReactDOM.render(
 
   <React.StrictMode>
     <TranslationsLoader
+      // To switch languages, change the value being passed into the loader below.
       loader={loader("en")}
       loading={<p>Loading, please wait...</p>}
     >
