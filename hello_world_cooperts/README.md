@@ -170,7 +170,8 @@ Here are some specific reasons why CooperTS is beneficial:
 First, clone down the repository. While in the directory of your choice:
 
 ```
-git clone git@github.com:JamesK-Projects/CooperTS-demo.git
+git clone https://github.com/execonline-inc/CooperTS-Demo.git
+cd CooperTS-Demo/hello_world
 ```
 
 Second, install dependencies:
